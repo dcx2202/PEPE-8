@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.xst" -ofn "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PlacaMae.ucf -p xc6slx45-csg324-3 "PlacaMae.ngc" PlacaMae.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PlacaMae_map.ncd PlacaMae.ngd PlacaMae.pcf 
+par -w -intstyle ise -ol high -mt off PlacaMae_map.ncd PlacaMae.ncd PlacaMae.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PlacaMae.twx PlacaMae.ncd -o PlacaMae.twr PlacaMae.pcf -ucf PlacaMae.ucf 
+bitgen -intstyle ise -f PlacaMae.ut PlacaMae.ncd 
+xst -intstyle ise -ifn "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.xst" -ofn "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PlacaMae.ucf -p xc6slx45-csg324-3 "PlacaMae.ngc" PlacaMae.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PlacaMae_map.ncd PlacaMae.ngd PlacaMae.pcf 
+par -w -intstyle ise -ol high -mt off PlacaMae_map.ncd PlacaMae.ncd PlacaMae.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PlacaMae.twx PlacaMae.ncd -o PlacaMae.twr PlacaMae.pcf -ucf PlacaMae.ucf 
+bitgen -intstyle ise -f PlacaMae.ut PlacaMae.ncd 

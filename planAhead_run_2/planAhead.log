@@ -1,0 +1,153 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Mar 19 17:09:59 2017
+# Process ID: 10836
+# Log file: C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/pa.fromHdl.tcl}
+# create_project -name Projeto1 -dir "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/planAhead_run_2" -part xc6slx45csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "PlacaMae.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {Zero.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RomDesc.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegistoA.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ProgramCounter.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PerifericoSaida.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PerifericoEntrada.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MuxPC.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Processador.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MemInst.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MemDados.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PlacaMae.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top PlacaMae $srcset
+# add_files [list {PlacaMae.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx45csg324-3
+Using Verific elaboration
+Parsing VHDL file "E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/Zero.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/RomDesc.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/RegistoA.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/ProgramCounter.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PerifericoSaida.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PerifericoEntrada.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/MuxPC.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/Mux.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/Processador.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/MemInst.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/MemDados.vhd" into library work
+Parsing VHDL file "C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.vhd" into library work
+Loading clock regions from E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockRegion.xml
+Loading clock buffers from E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/ClockBuffers.xml
+Loading package pin functions from E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx45/csg324/Package.xml
+Loading io standards from E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/Diogo/Programas/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.ucf]
+Finished Parsing UCF File [C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/PlacaMae.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 24738bcc
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E4 [get_ports {PIN[7]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {PIN[6]}]
+endgroup
+startgroup
+set_property package_pin R5 [get_ports {PIN[5]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {PIN[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {PIN[3]}]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports {PIN[2]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {PIN[1]}]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports {PIN[0]}]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports {PIN[0]}]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports {POUT[7]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {POUT[6]}]
+endgroup
+startgroup
+set_property package_pin D4 [get_ports {POUT[5]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {POUT[4]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {POUT[3]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {POUT[2]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {POUT[1]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {POUT[0]}]
+endgroup
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1\planAhead_pid10836.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Mar 19 18:08:48 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

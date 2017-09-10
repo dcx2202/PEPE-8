@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Mar 19 17:09:59 2017
+# Process ID: 10836
+# Log file: C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E4 [get_ports {PIN[7]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {PIN[6]}]
+endgroup
+startgroup
+set_property package_pin R5 [get_ports {PIN[5]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {PIN[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {PIN[3]}]
+endgroup
+startgroup
+set_property package_pin C14 [get_ports {PIN[2]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {PIN[1]}]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports {PIN[0]}]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports {PIN[0]}]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports {POUT[7]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {POUT[6]}]
+endgroup
+startgroup
+set_property package_pin D4 [get_ports {POUT[5]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {POUT[4]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {POUT[3]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {POUT[2]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {POUT[1]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {POUT[0]}]
+endgroup

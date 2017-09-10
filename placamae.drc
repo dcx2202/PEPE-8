@@ -1,0 +1,63 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Mar 21 17:24:33 2017
+
+drc -z PlacaMae.ncd PlacaMae.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net G<7> is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net Q is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<7>/MemDados1/Mram_F8/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<7>/MemDados1/Mram_F8/A> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<6>/MemDados1/Mram_F7/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<6>/MemDados1/Mram_F7/A> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<4>/MemDados1/Mram_F5/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<4>/MemDados1/Mram_F5/A> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<3>/MemDados1/Mram_F4/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<3>/MemDados1/Mram_F4/A> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<5>/MemDados1/Mram_F6/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<5>/MemDados1/Mram_F6/A> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<2>/MemDados1/Mram_F3/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<2>/MemDados1/Mram_F3/A> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<1>/MemDados1/Mram_F2/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<1>/MemDados1/Mram_F2/A> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<0>/MemDados1/Mram_F1/C> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <MemDados1/_n0018<0>/MemDados1/Mram_F1/A> is incomplete. The signal does not
+   drive any load pins in the design.
+DRC detected 0 errors and 18 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

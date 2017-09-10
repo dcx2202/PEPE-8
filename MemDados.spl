@@ -1,0 +1,8 @@
+[Inputs]
+WR
+CLK
+=Constante[7:0]=
+=SaidaRegA[7:0]=
+[Outputs]
+=SaidaMemDados[7:0]=
+[BiDir]

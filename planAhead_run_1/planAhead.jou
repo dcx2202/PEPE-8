@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Mar 19 17:00:56 2017
+# Process ID: 7156
+# Log file: C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Diogo/Documents/Universidade/Arquitetura de Computadores/Projeto1/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1

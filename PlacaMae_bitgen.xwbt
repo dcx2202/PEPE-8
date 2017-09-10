@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Diogo\Documents\Universidade\Arquitetura de Computadores\Projeto1\PlacaMae.ncd
+OUTFILE=C:\Users\Diogo\Documents\Universidade\Arquitetura de Computadores\Projeto1\PlacaMae.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Users\Diogo\Documents\Universidade\Arquitetura de Computadores\Projeto1
+LICENSE=WebPack
+USER_INFO=211327957_0_0_254
